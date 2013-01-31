@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DGViewController : UIViewController
+@interface DGViewController : UIViewController <UIAlertViewDelegate,UIActionSheetDelegate>
+- (IBAction)alertSimple:(id)sender;
+- (IBAction)actionSheet:(id)sender;
 
 @end
